@@ -104,7 +104,7 @@ export BROWSER='/usr/bin/firefox'
 v() {nvim $@}
 pippi() {pip install --user $@}
 
-alias ERC="$EDITOR ~/.zshrc"
+alias ERC="dotted zshrc"
 alias RRC="source ~/.zshrc"
 
 # # tabtab source for serverless package
