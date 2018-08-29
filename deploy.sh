@@ -10,3 +10,6 @@ nvim -c "PlugInstall" -c "qa!"
 
 # zsh
 cp ./zshrc ~/.zshrc
+
+# git
+./git_aliases.sh
