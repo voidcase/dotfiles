@@ -11,7 +11,7 @@ set ignorecase
 
 let mapleader = "\<Space>"
 
-command! ERC tabedit ~/.config/nvim/init.vim
+" command! ERC tabedit ~/repos/dotfiles/nvim/init.vim
 command! RRC source ~/.config/nvim/init.vim
 command! PY !python %
 command! PT !pytest %
