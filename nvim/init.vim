@@ -75,6 +75,7 @@ call plug#begin('~/.local/share/nvim/plugged')
 	Plug 'reedes/vim-pencil'
 	Plug 'Raimondi/delimitMate'
 	Plug 'junegunn/vim-easy-align'
+	Plug 'posva/vim-vue'
 	" Plug 'vim-scripts/auto-pairs-gentle'
 	" Plug 'autozimu/LanguageClient-neovim', { 'branch': 'next', 'do': 'bash install.sh' }
 	" Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
