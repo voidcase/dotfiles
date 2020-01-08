@@ -1,7 +1,0 @@
-#!/bin/zsh
-
-DOTFILES=~/repos/dotfiles
-
-$EDITOR $DOTFILES/$1 && (
-	cd $DOTFILES && ./deploy.sh && git a $1 && git commit -m "$HOST edited $1" && git pull && git push
-)
